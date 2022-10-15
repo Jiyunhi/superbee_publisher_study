@@ -1,25 +1,9 @@
-# 💖 탭탭탭탭
+# 💖 노마드 코더
 
 <details>
 
-<summary>🚀 Integrity</summary>
+<summary>(☞ﾟヮﾟ)☞  바닐라 JS</summary>
 
-
-
-</details>
-
-<details>
-
-<summary>✊ Diligence</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>💪 Accountability</summary>
-
-
+*
 
 </details>
