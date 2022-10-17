@@ -6,7 +6,7 @@
 //use this for 바닐라 자바스크립트
 'use strict';
 
-//2. Variable(변수)
+//2. Variable(변수): rw(read/write)가 가
 // 1) let (added in ES6)
 let name= 'ellie';
 console.log('name');
@@ -25,15 +25,25 @@ age=4;
 //hoisting === 어디서 선언했든 항상 제일 위로 선언을 끌어올려주는 것 입니다.
 //block scope이 없음 = 블럭 스콥을 무시하고 작용한다는 것
 
-//3. Constant
+//3. Constant: read만 가능
 const num;
 num = 15;
 //변하지 않는 상수(변경 불가능=immutable)
 //보안상 좋음, thread 안전성
 
+//NOTE!!!!!
+//Immutabl(변경 불가능) data types: 
+    //premitive types, frozen objects(i.e. object.freeze())
+//Mutable data types: all objects by default are mutable in JS
+    //favor immutable data type always for a few reasons:
+    //- security
+    //- thread safety
+    //- reduce human mistakes
+
+
 //4. 데이터 타입 종류
-// 1) primitive: 한가지 아이템(boolean, 숫자, string, null, undefined, symbol) 
-//    object: 한가지 아이템들을 묶은 것
+// 1) primitive: 한가지 아이템, 값 자체가 한번에 올라간다.(boolean, 숫자, string, null, undefined, symbol) 
+//    object: 한가지 아이템들을 묶은 것, 
 //    function: first-class function이 지원 - 변수할당 가능, 함수의 인자, 리턴도 가능
 const count = 17;//integer
 const size = 17.1;//decimal number
