@@ -1,13 +1,23 @@
 # 03. 데이터 타입, data types, let vs var, hoisting
 
-```javascript
-//1. Use strict
-//added in ES 5
-//use this for 바닐라 자바스크립트
-'use strict';
+## 1) Use strict
 
+* ECMA Script 5에서 추가
+* use this for 바닐라 JS
+
+```
+'use strict';
+```
+
+## 2. Variable(변수)
+
+* read / write 가 가능
+
+### 1) let (added in ES6)
+
+```javascript
 //2. Variable(변수): rw(read/write)가 가
-// 1) let (added in ES6)
+// 1) let (added n ES6)
 let name= 'ellie';
 console.log('name');
 name='hello';
