@@ -11,4 +11,5 @@
   * [01. 콘솔 출력, script async와 defer의 차이](undefined/undefined/01.-script-async-defer.md)
   * [03. 데이터 타입, data types, let vs var, hoisting](undefined/undefined/untitled.md)
   * [04. operator, if, for loop](undefined/undefined/04.-operator-if-for-loop.md)
-* [💖 노마드 코더](undefined/undefined-1.md)
+* [💖 노마드 코더](undefined/undefined-1/README.md)
+  * [Arrays / Object / Function / Recap / Returns / Conditionals](undefined/undefined-1/arrays-object-function-recap-returns-conditionals.md)
