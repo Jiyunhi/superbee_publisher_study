@@ -20,6 +20,88 @@
 
 typeof 에서도 number로 인식
 
+### 1. Math의 ceil(), floor(), round(): 소수점 이하 올림, 림, 반올림 <a href="#1-math-ceil-floor-round" id="1-math-ceil-floor-round"></a>
+
+* Math.ceil() : 소수점 이하 숫자를 올림하여 정수를 리턴
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>const num1 = 0.1234;
+</strong>const num2 = 10.1234;
+const num3 = 100.1234;
+
+console.log(Math.ceil(num1));   // 1
+console.log(Math.ceil(num2));   // 11
+console.log(Math.ceil(num3));   // 101</code></pre>
+
+* Math.floor() : 소수점 이하 숫자를 버림하여 정수를 리턴
+
+```javascript
+const num1 = 0.1234;
+const num2 = 10.1234;
+const num3 = 100.1234;
+
+console.log(Math.floor(num1));   // 0
+console.log(Math.floor(num2));   // 10
+console.log(Math.floor(num3));   // 100
+```
+
+* Math.round() : 소수점 이하 숫자를 반올림하여 정수를 리턴
+
+```javascript
+const num1 = 0.1234;
+const num2 = 10.1234;
+const num3 = 100.5678;
+
+console.log(Math.round(num1));   // 0
+console.log(Math.round(num2));   // 10
+console.log(Math.round(num3));   // 101
+```
+
+### 2. Number.toFixed(): 소수점 자리수 제거(n자리로 반올림) <a href="#2-numbertofixed-n" id="2-numbertofixed-n"></a>
+
+숫자를 소수점 n자리로 반올림. n자리 이후의 숫자를 제거 가능
+
+```javascript
+const num1 = 0.1234;
+const num2 = 10.1234;
+const num3 = 100.5678;
+
+console.log(num1.toFixed(3));   // 0.123
+console.log(num2.toFixed(2));   // 10.12
+console.log(num3.toFixed(2));   // 100.57
+```
+
+### 3. round(): 소수점 n자리 반올림 <a href="#3-round-n" id="3-round-n"></a>
+
+n자리수로 반올림: `10^n` 곱하고 나누기!
+
+```javascript
+let num = 8.5678
+let result = Math.round(num * 100) / 100;
+console.log(result);  // 8.57
+
+num = 10.1234
+result = Math.round(num * 100) / 100;
+console.log(result);  // 10.12
+
+num = 203.5612
+result = Math.round(num * 100) / 100;
+console.log(result);  // 203.56
+```
+
+### 4. 소수점 n자리 올림 또는 버림 <a href="#4-n" id="4-n"></a>
+
+```javascript
+//올
+let num = 10.1234
+let result = Math.ceil(num * 100) / 100;
+console.log(result);  // 10.13
+
+//버림
+num = 8.5678
+result = Math.floor(num * 100) / 100;
+console.log(result);  // 8.56
+```
+
 ## 연산자 우선순위
 
 | 우선순위 | 연산자(쉼표로 구분)                                                |
