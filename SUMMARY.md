@@ -15,3 +15,8 @@
 
 * [💖 노마드 코더](undefined-1/undefined/README.md)
   * [Arrays / Object / Function / Recap / Returns / Conditionals](undefined-1/undefined/arrays-object-function-recap-returns-conditionals.md)
+
+## 구글링
+
+* [😱 구글링](undefined-2/undefined/README.md)
+  * [js 숫자: 소수점, parseInt, NaN...](undefined-2/undefined/js-parseint-nan....md)
