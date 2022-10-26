@@ -20,3 +20,4 @@
 
 * [😱 구글링](undefined-2/undefined/README.md)
   * [js 숫자: 소수점, parseInt, NaN...](undefined-2/undefined/js-parseint-nan....md)
+  * [.preventDefault(), .stopPropagation()](undefined-2/undefined/.preventdefault-.stoppropagation.md)
