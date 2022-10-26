@@ -20,7 +20,7 @@
 
 typeof 에서도 number로 인식
 
-### 1. Math의 ceil(), floor(), round(): 소수점 이하 올림, 림, 반올림 <a href="#1-math-ceil-floor-round" id="1-math-ceil-floor-round"></a>
+### 1. Math의 ceil(), floor(), round(): 소수점 이하 올림, 버림, 반올림 <a href="#1-math-ceil-floor-round" id="1-math-ceil-floor-round"></a>
 
 * Math.ceil() : 소수점 이하 숫자를 올림하여 정수를 리턴
 
