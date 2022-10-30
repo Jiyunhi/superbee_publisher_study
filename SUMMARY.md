@@ -10,6 +10,7 @@
   * [03. 데이터 타입, data types, let vs var, hoisting](undefined/undefined/untitled.md)
   * [04. operator, if, for loop](undefined/undefined/04.-operator-if-for-loop.md)
   * [05. Arrow Function /함수의 선언과 표현](undefined/undefined/05.-arrow-function.md)
+  * [06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/undefined/06.-class-vs-object.md)
 
 ## 노마드 코더 정리
 
