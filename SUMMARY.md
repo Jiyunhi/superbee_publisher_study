@@ -12,6 +12,7 @@
   * [05. Arrow Function /함수의 선언과 표현](undefined/undefined/05.-arrow-function.md)
   * [06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/undefined/06.-class-vs-object.md)
   * [07. object 넌 뭐니](undefined/undefined/07.-object.md)
+  * [08. 배열, 자바스크립트 배열 개념과 APIs 총정리](undefined/undefined/08.-apis.md)
 
 ## 노마드 코더 정리
 
