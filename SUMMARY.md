@@ -21,7 +21,8 @@
 ## 노마드 코더 정리
 
 * [💖 노마드 코더](undefined-1/undefined/README.md)
-  * [Arrays / Object / Function / Recap / Returns / Conditionals](undefined-1/undefined/arrays-object-function-recap-returns-conditionals.md)
+  * [#1.1\~2.13 Arrays / Object / Function / Recap / Returns / Conditionals(1)](undefined-1/undefined/1.1-2.13-arrays-object-function-recap-returns-conditionals-1.md)
+  * [#2.14\~16. Conditionals(2),Conditionals(3), Recap](undefined-1/undefined/2.14-16.-conditionals-2-conditionals-3-recap.md)
 
 ## 구글링
 
